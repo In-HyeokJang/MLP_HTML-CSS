@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2022 by anonymous (http://jsbin.com/mocanovufo/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+.thumbnail{
+  float: left;
+  width: 110px;
+  height: 90px;
+  margin: 5px;
+}
+.text_line {
+	clear: both;
+	margin-bottom:2px;
+</style>
+</head>
+<body>
+  <h3>Image Gallery</h3>
+  <p>Try to resize the browser-window to see what happens when the images do not have enough room.</p>
+  <img class = 'thumbanil' src='klematis_small.jpg' width='107' height='90'>
+  <img class = 'thumbanil' src='klematis2_small.jpg' width='107' height='90'>
+  <img class = 'thumbanil' src='klematis3_small.jpg' width='107' height='90'>
+  <img class = 'thumbanil' src='klematis4_small.jpg' width='107' height='90'>
+
+  
+<h3 class="text_line">Second row</h3>
+  <img class = 'thumbanil' src='klematis_small.jpg' width='107' height='90'>
+  <img class = 'thumbanil' src='klematis2_small.jpg' width='107' height='90'>
+  <img class = 'thumbanil' src='klematis3_small.jpg' width='107' height='90'>
+  <img class = 'thumbanil' src='klematis4_small.jpg' width='107' height='90'>
+<script id="jsbin-javascript">
+    function myFunction(){
+
+      document.getElementById('myDIV').style.overflowX='scroll';
+    }
+</script>
+</body>
+</html>
